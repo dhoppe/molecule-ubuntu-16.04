@@ -4,15 +4,15 @@ This [Docker](https://www.docker.com) image can be used to test [Ansible](https:
 
 ## Supported tags
 
+* latest
 * 16.04
-* 18.04
 
 ## Usage
 
 Run the container as a daemon
 
 ```console
-docker run --cap-add SYS_ADMIN --detach --name ubuntu-16.04 --rm --volume /sys/fs/cgroup:/sys/fs/cgroup:ro dhoppe/molecule-ubuntu:16.04
+docker run --cap-add SYS_ADMIN --detach --name ubuntu-16.04 --rm --volume /sys/fs/cgroup:/sys/fs/cgroup:ro dhoppe/molecule-ubuntu-16.04
 ```
 
 Enter the container
